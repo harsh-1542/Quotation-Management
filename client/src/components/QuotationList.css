@@ -1,0 +1,98 @@
+.quotation-list-container {
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.quotation-list-title {
+  color: #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.quotation-list-title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #3498db, #9b59b6);
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
+}
+
+.quotation-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quotation-table-header {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+}
+
+.quotation-table-header th {
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.quotation-table-row {
+  transition: all 0.2s ease;
+}
+
+.quotation-table-row:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.quotation-table-row:nth-child(odd) {
+  background-color: white;
+}
+
+.quotation-table-row:hover {
+  background-color: #e9f7fe;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quotation-table-cell {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #555;
+}
+
+.action-link {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.action-link:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.delete-button {
+  color: #e74c3c;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.delete-button:hover {
+  color: #c0392b;
+  text-decoration: underline;
+}
