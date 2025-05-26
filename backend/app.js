@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Database connection
-mongoose.connect('mongodb://127.0.0.1:27017/interiorDesignerDB')
+mongoose.connect('mongodb+srv://harshshrimali3003:1234567890@cluster0.nequwhw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0interiorDesignerDB')
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error('MongoDB connection error:', err));
 
